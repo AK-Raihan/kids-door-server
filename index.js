@@ -24,6 +24,7 @@ async function run(){
         const database = client.db('kidsDoor');
         const classCollection = database.collection('class');
         const enrollCollection = database.collection('enroll');
+        const ordersCollection = database.collection('orders');
         const messageCollection = database.collection('message');
 
         // get class api
